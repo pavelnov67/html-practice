@@ -1,12 +1,25 @@
+body, h1 {
+  margin: 0;
+}
 body {
     min-width: 850px;
   }
   
   header {
-    width: 100%;
-    height: 50%;
-    background-color: forestgreen;
+    height: 100vh;
+    background-color: rgb(255, 228, 196);
+    background-image: url(https://code.s3.yandex.net/web-code/images/freetrack/03/cover.png);
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-position: center;
   }
   h1 {
     font-size: 74px;
+    color: rgb(240 255 255 / 0.5);
+    text-align: center;
   }  
+  div {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255 255 255 / .2);
+  }
