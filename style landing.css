@@ -1,25 +1,76 @@
-body, h1 {
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 100%;
+}
+
 body {
-    min-width: 850px;
-  }
-  
-  header {
-    height: 100vh;
-    background-color: rgb(255, 228, 196);
-    background-image: url(https://code.s3.yandex.net/web-code/images/freetrack/03/cover.png);
-    background-size: cover;
-    /*background-repeat: no-repeat;*/
-    background-position: center;
-  }
-  h1 {
-    font-size: 74px;
-    color: rgb(240 255 255 / 0.5);
-    text-align: center;
-  }  
-  div {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255 255 255 / .2);
-  }
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+header {
+  height: 100vh;
+  text-align: center;
+  background-color: #eee;
+  background-image: url(https://code.s3.yandex.net/web-code/images/freetrack/03/cover.png);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 270px;
+  color: white;
+  font-weight: 800;
+  font-size: 74px;
+  text-transform: uppercase;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(95 13 238 / 0.5);
+}
+
+.content {
+  font-size: 0;
+  background-color: #8aafcf;
+  width: 770px;
+  margin: 0 auto;
+}
+
+.card {
+  display: inline-block;
+  width: 360px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+  border: 1px solid rgb(250 50 50 / 0.4);
+  padding: 25px 25px 30px;
+  background-color: #e3f3ff;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 31px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid rgb(250 50 50 / 0.4);
+}
